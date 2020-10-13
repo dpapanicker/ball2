@@ -10,8 +10,7 @@ class dustbin
  		this.wallThickness=20;
  		this.angle=-0.25;
  		this.offset=20	
- 		this.image=loadImage("trashcangreen.png")
-
+		
  		this.image=loadImage("dustbingreen.png")
  		this.bottomBody=Bodies.rectangle(this.x, this.y, this.dustbinWidth, this.wallThickness, {isStatic:true})
  		this.leftWallBody=Bodies.rectangle(this.x+this.offset-this.dustbinWidth/2, this.y-this.dustbinHeight/2, this.wallThickness, this.dustbinHeight, {isStatic:true})
